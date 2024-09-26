@@ -1,8 +1,7 @@
 document.getElementById('formContacto').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    // Limpiar mensajes de error previos
-//    clearErrors();
+
 
     // Validar campos...
     let esValido = true;
