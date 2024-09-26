@@ -66,7 +66,7 @@ function mensajeGracias() {
     
     graciass.onreadystatechange = function() {
         if (graciass.readyState === 4 && graciass.status === 200) {
-            // en el dialog modal, cargo el texto del archivo
+            // en el dialog modal, inyecto el texto del archivo
             document.getElementById('mensajeGracias').textContent = graciass.responseText;
 
             // Abrir el diálogo modal
