@@ -43,7 +43,7 @@ document.getElementById('formContacto').addEventListener('submit', function(even
         esValido = false;
     }
 
-    if (esValido) { // si el form es valido, llamo a funcion que ejecuta ajax
+    if (esValido) { // si el form es valido, llamo a funcion mensajeGracias (ajax)
         
         mensajeGracias();
         this.reset(); // Limpiar el formulario tras el envío
